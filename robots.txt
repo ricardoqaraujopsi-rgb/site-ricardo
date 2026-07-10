@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ricardoaraujopsi.com.br/sitemap.xml
