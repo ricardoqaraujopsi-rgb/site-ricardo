@@ -4,73 +4,27 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Blog | Ricardo Araujo - Psicólogo Clínico</title>
-<meta content="Artigos sobre psicoterapia, saúde mental e bem-estar emocional, por Ricardo Araujo, Psicólogo Clínico (CRP 06/236217)." name="description"/>
+<title>Ricardo Araujo | Psicólogo Clínico e Psicoterapia Online</title>
+<meta content="Psicoterapia online para adultos com foco em ansiedade, estresse, relacionamentos e depressão. Atendimento baseado em Terapia Cognitivo-Comportamental." name="description"/>
 <meta content="index, follow" name="robots"/>
-<link href="https://ricardoaraujopsi.com.br/blog/" rel="canonical"/>
+<link href="https://ricardoaraujopsi.com.br/" rel="canonical"/>
+<!-- Open Graph -->
 <meta content="website" property="og:type"/>
 <meta content="pt_BR" property="og:locale"/>
-<meta content="Blog | Ricardo Araujo - Psicólogo Clínico" property="og:title"/>
-<meta content="Artigos sobre psicoterapia, saúde mental e bem-estar emocional." property="og:description"/>
-<meta content="https://ricardoaraujopsi.com.br/blog/" property="og:url"/>
-<meta content="Ricardo Araujo Psicólogo" property="og:site_name"/>
-<meta content="https://ricardoaraujopsi.com.br/og-image.jpg" property="og:image"/>
-<meta content="1200" property="og:image:width"/>
-<meta content="630" property="og:image:height"/>
+<meta content="Ricardo Araujo Psicologia" property="og:site_name"/>
+<meta content="Ricardo Araujo | Psicólogo Clínico · Terapia Cognitivo-Comportamental" property="og:title"/>
+<meta content="Psicoterapia baseada em evidências para quem deseja compreender melhor a ansiedade, o estresse, os relacionamentos e a depressão. Atendimento para adultos." property="og:description"/>
+<meta content="https://ricardoaraujopsi.com.br/" property="og:url"/>
+<meta content="https://ricardoaraujopsi.com.br/assets/ricardo-og.jpg" property="og:image"/>
+<!-- Twitter Cards -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Blog | Ricardo Araujo - Psicólogo Clínico" name="twitter:title"/>
-<meta content="Artigos sobre psicoterapia, saúde mental e bem-estar emocional." name="twitter:description"/>
-<meta content="https://ricardoaraujopsi.com.br/og-image.jpg" name="twitter:image"/>
+<meta content="Ricardo Araujo | Psicólogo Clínico · TCC" name="twitter:title"/>
+<meta content="Psicoterapia baseada em evidências para ansiedade, estresse, relacionamentos e depressão. Atendimento a adultos." name="twitter:description"/>
+<meta content="https://ricardoaraujopsi.com.br/assets/ricardo-og.jpg" name="twitter:image"/>
 <link href="/favicon.ico" rel="icon" sizes="any"/>
-<link href="/favicon.png" rel="icon" type="image/png"/>
-<link href="/favicon.png" rel="apple-touch-icon"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&amp;family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<style>
-  :root{
-    --cream:#F6F1E7; --cream-2:#EFE7D8; --ink:#2B241D; --ink-soft:#6B6156;
-    --terracotta:#B94E2C; --terracotta-deep:#96401F;
-    --olive:#565A34; --olive-deep:#454826; --line:#DDD2BE; --card:#FBF8F1;
-  }
-  *{margin:0;padding:0;box-sizing:border-box;}
-  body{background:var(--cream); color:var(--ink); font-family:'Work Sans', sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased;}
-  h1,h2,h3{font-family:'Fraunces', serif; font-weight:500; letter-spacing:-0.01em; color:var(--ink);}
-  a{color:inherit;}
-  a:focus-visible{outline:3px solid var(--terracotta); outline-offset:2px;}
-
-  .nav{position:sticky; top:0; z-index:50; background:rgba(246,241,231,0.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
-  .nav-inner{max-width:820px; margin:0 auto; padding:16px 24px; display:flex; align-items:center; justify-content:space-between;}
-  .nav-links{display:flex; align-items:center; gap:22px; font-size:14.5px; font-weight:500;}
-  .nav-links a{text-decoration:none; color:var(--ink-soft);}
-  .nav-links a:hover{color:var(--terracotta);}
-  .nav-cta{background:var(--olive); color:#fff; padding:9px 18px; border-radius:100px; font-size:14px; font-weight:600; text-decoration:none;}
-  .nav-cta:hover{background:var(--olive-deep);}
-
-  main{max-width:820px; margin:0 auto; padding:0 24px;}
-  .page-head{padding:64px 0 40px;}
-  .eyebrow{font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:var(--terracotta); font-weight:600; display:flex; align-items:center; gap:10px; margin-bottom:18px;}
-  .eyebrow::before{content:""; width:22px; height:1px; background:var(--terracotta);}
-  .page-head h1{font-size:clamp(32px,4.6vw,46px); margin-bottom:14px;}
-  .page-head p{color:var(--ink-soft); font-size:17px; max-width:520px;}
-
-  .post-list{padding-bottom:80px; display:flex; flex-direction:column; gap:20px;}
-  .post-card{
-    background:var(--card); border:1px solid var(--line); border-radius:16px;
-    padding:32px; text-decoration:none; display:block;
-    transition:transform .2s ease, box-shadow .2s ease;
-  }
-  .post-card:hover{transform:translateY(-3px); box-shadow:0 16px 32px -18px rgba(43,36,29,0.25);}
-  .post-card .tag{font-size:12.5px; color:var(--terracotta); font-weight:600; text-transform:uppercase; letter-spacing:0.08em; margin-bottom:10px; display:block;}
-  .post-card h2{font-size:22px; margin-bottom:10px; color:var(--ink);}
-  .post-card p{color:var(--ink-soft); font-size:15px; margin-bottom:14px;}
-  .post-card .meta{font-size:13px; color:var(--ink-soft); display:flex; align-items:center; gap:8px;}
-  .post-card .read-more{font-size:14px; font-weight:600; color:var(--terracotta);}
-
-  footer{background:var(--ink); color:#B8AE9F; padding:32px 24px; text-align:center; font-size:13.5px;}
-  footer a{color:#D9D1C4; text-decoration:none;}
-
-  @media (max-width:640px){ .nav-links{display:none;} }
-</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -78,51 +32,687 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PB42NZS7');</script>
 <!-- End Google Tag Manager -->
-</head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Psychologist",
+  "name": "Ricardo Araujo",
+  "image": "https://ricardoaraujopsi.com.br/assets/ricardo-araujo.jpg",
+  "url": "https://ricardoaraujopsi.com.br/",
+  "description": "Psicólogo Clínico (CRP 06/236217) especializado em Terapia Cognitivo-Comportamental, atendimento a adultos com ansiedade, estresse, relacionamentos e depressão.",
+    "identifier": {
+    "@type": "PropertyValue",
+    "name": "CRP",
+    "value": "06/236217"
+  },
+  "areaServed": "BR",
+  "availableService": {
+    "@type": "MedicalTherapy",
+    "name": "Terapia Cognitivo-Comportamental"
+  },
+  "sameAs": []
+}
+</script>
+<style>
+  :root{
+    --bege: #F6F1E7;
+    --bege-escuro: #EDE5D3;
+    --verde-oliva: #5C6444;
+    --verde-oliva-escuro: #454B33;
+    --terracota: #BC6C4A;
+    --terracota-escuro: #A15938;
+    --tinta: #2E2B24;
+    --tinta-suave: #5A5648;
+    --branco: #FFFDF8;
+    --borda: rgba(46, 43, 36, 0.12);
+    --sombra: 0 20px 40px -24px rgba(46, 43, 36, 0.25);
+    --raio: 4px;
+    --fonte-display: "Fraunces", Georgia, serif;
+    --fonte-corpo: "Work Sans", -apple-system, sans-serif;
+    --largura-max: 1180px;
+  }
+
+  *,*::before,*::after{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior: auto; }
+    *,*::before,*::after{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+  }
+
+  body{
+    margin:0;
+    background: var(--bege);
+    color: var(--tinta);
+    font-family: var(--fonte-corpo);
+    font-weight: 400;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img{ max-width:100%; display:block; }
+  a{ color: inherit; text-decoration: none; }
+
+  h1,h2,h3,h4{
+    font-family: var(--fonte-display);
+    font-weight: 500;
+    color: var(--verde-oliva-escuro);
+    line-height: 1.2;
+    margin: 0 0 .6em;
+  }
+
+  p{ margin: 0 0 1em; color: var(--tinta-suave); }
+
+  .container{
+    width: 100%;
+    max-width: var(--largura-max);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .visually-hidden{
+    position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+  }
+
+  .skip-link{
+    position:absolute; left:-999px; top:0; background:var(--verde-oliva-escuro);
+    color:#fff; padding:12px 20px; z-index:100; border-radius:0 0 var(--raio) 0;
+  }
+  .skip-link:focus{ left:0; }
+
+  a:focus-visible, button:focus-visible{
+    outline: 2px solid var(--terracota);
+    outline-offset: 3px;
+  }
+
+  /* ---------- Botões ---------- */
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:.5em;
+    font-family: var(--fonte-corpo); font-weight:500; font-size: .95rem;
+    padding: 14px 28px; border-radius: var(--raio); border: 1px solid transparent;
+    cursor:pointer; transition: background-color .2s ease, color .2s ease, border-color .2s ease, transform .2s ease;
+    letter-spacing: .01em;
+  }
+  .btn-primario{ background: var(--terracota); color:#fff; }
+  .btn-primario:hover{ background: var(--terracota-escuro); transform: translateY(-1px); }
+  .btn-secundario{ background: transparent; color: var(--verde-oliva-escuro); border-color: var(--verde-oliva-escuro); }
+  .btn-secundario:hover{ background: var(--verde-oliva-escuro); color:#fff; }
+  .btn-claro{ background: var(--branco); color: var(--verde-oliva-escuro); }
+  .btn-claro:hover{ background: var(--bege-escuro); }
+
+  /* ---------- Header ---------- */
+  .cabecalho{
+    position: sticky; top:0; z-index:50;
+    background: rgba(246,241,231,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--borda);
+  }
+  .cabecalho .container{
+    display:flex; align-items:center; justify-content:space-between;
+    padding-top: 16px; padding-bottom: 16px;
+  }
+  .logo{ display:flex; align-items:center; gap:10px; }
+  .logo img{ height: 40px; width:auto; }
+  .logo span{ font-family: var(--fonte-display); font-size:1.15rem; color: var(--verde-oliva-escuro); }
+
+  .nav-principal{ display:none; }
+  .nav-principal ul{ list-style:none; display:flex; gap:32px; margin:0; padding:0; }
+  .nav-principal a{ font-size:.95rem; color: var(--tinta-suave); position:relative; }
+  .nav-principal a:hover{ color: var(--verde-oliva-escuro); }
+
+  .cabecalho .btn{ padding:10px 20px; font-size:.9rem; }
+
+  @media (min-width: 900px){
+    .nav-principal{ display:block; }
+  }
+
+  /* ---------- Seções genéricas ---------- */
+  section{ padding: 96px 0; }
+  .secao-alt{ background: var(--bege-escuro); }
+  .eyebrow{
+    font-family: var(--fonte-corpo); text-transform: uppercase; letter-spacing:.14em;
+    font-size:.78rem; color: var(--terracota); font-weight:600; margin-bottom: 14px; display:block;
+  }
+  .cabecalho-secao{ max-width: 660px; margin: 0 auto 56px; text-align:center; }
+  .cabecalho-secao h2{ font-size: clamp(1.7rem, 3vw, 2.35rem); }
+  .cabecalho-secao p{ font-size:1.05rem; }
+
+  /* ---------- Hero ---------- */
+  .hero{ padding: 64px 0 96px; }
+  .hero .container{
+    display:grid; grid-template-columns: 1fr; gap: 48px; align-items:center;
+  }
+  .hero-texto .eyebrow{ margin-bottom:18px; }
+  .hero-texto h1{
+    font-size: clamp(1.9rem, 4.4vw, 2.85rem);
+    max-width: 18ch;
+  }
+  .hero-texto p{ font-size: 1.1rem; max-width: 46ch; }
+  .hero-acoes{ display:flex; flex-wrap:wrap; gap:16px; margin-top: 32px; }
+  .hero-selo{
+    display:inline-flex; align-items:center; gap:10px; margin-top:36px;
+    font-size:.85rem; color: var(--tinta-suave);
+  }
+  .hero-selo svg{ flex-shrink:0; color: var(--verde-oliva); }
+
+  .hero-imagem{ position:relative; }
+  .hero-imagem .moldura{
+    border-radius: 6px; overflow:hidden; box-shadow: var(--sombra);
+    aspect-ratio: 4 / 5; background: var(--bege-escuro);
+  }
+  .hero-imagem .moldura img{ width:100%; height:100%; object-fit:cover; }
+  .hero-imagem .marca-agua{
+    position:absolute; bottom:-22px; left:-22px; background: var(--branco);
+    border: 1px solid var(--borda); border-radius: var(--raio);
+    padding: 16px 20px; box-shadow: var(--sombra); max-width: 240px;
+    display:none;
+  }
+  .hero-imagem .marca-agua strong{ display:block; font-family: var(--fonte-display); color:var(--verde-oliva-escuro); font-size:1.05rem; }
+  .hero-imagem .marca-agua span{ font-size:.82rem; color: var(--tinta-suave); }
+
+  @media (min-width: 900px){
+    .hero .container{ grid-template-columns: 1.05fr .95fr; gap: 72px; }
+    .hero-imagem .marca-agua{ display:block; }
+  }
+
+  /* ---------- Cards "Como posso ajudar" ---------- */
+  .grade-areas{ display:grid; grid-template-columns: 1fr; gap: 24px; }
+  @media (min-width: 620px){ .grade-areas{ grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1000px){ .grade-areas{ grid-template-columns: repeat(4, 1fr); } }
+
+  .cartao-area{
+    background: var(--branco); border: 1px solid var(--borda); border-radius: var(--raio);
+    padding: 32px 26px; transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .cartao-area:hover{ transform: translateY(-4px); box-shadow: var(--sombra); }
+  .cartao-area .icone{
+    width:44px; height:44px; border-radius:50%; background: var(--bege-escuro);
+    display:flex; align-items:center; justify-content:center; margin-bottom:20px;
+    color: var(--verde-oliva);
+  }
+  .cartao-area h3{ font-size:1.15rem; margin-bottom:.5em; }
+  .cartao-area p{ font-size:.95rem; margin-bottom:0; }
+
+  /* ---------- Sobre mim ---------- */
+  .sobre .container{ display:grid; grid-template-columns: 1fr; gap:48px; align-items:center; }
+  .sobre-imagem{ border-radius:6px; overflow:hidden; aspect-ratio: 5/4; background: var(--bege-escuro); box-shadow: var(--sombra); }
+  .sobre-imagem img{ width:100%; height:100%; object-fit:cover; }
+  .sobre-texto h2{ font-size: clamp(1.6rem, 3vw, 2.1rem); }
+  .lista-credenciais{ list-style:none; margin: 28px 0 0; padding:0; display:grid; gap:16px; }
+  .lista-credenciais li{ display:flex; gap:14px; align-items:flex-start; font-size:.97rem; color: var(--tinta-suave); }
+  .lista-credenciais svg{ flex-shrink:0; margin-top:3px; color: var(--terracota); }
+
+  @media (min-width: 900px){
+    .sobre .container{ grid-template-columns: .85fr 1.15fr; gap: 72px; }
+  }
+
+  /* ---------- Como funciona a terapia ---------- */
+  .grade-etapas{ display:grid; grid-template-columns: 1fr; gap: 40px 32px; }
+  @media (min-width: 700px){ .grade-etapas{ grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1000px){ .grade-etapas{ grid-template-columns: repeat(4, 1fr); } }
+
+  .etapa{ position:relative; padding-top: 8px; }
+  .etapa .icone-etapa{
+    width:48px; height:48px; border-radius:50%; border:1px solid var(--verde-oliva);
+    display:flex; align-items:center; justify-content:center; color: var(--verde-oliva);
+    margin-bottom: 20px;
+  }
+  .etapa h3{ font-size:1.08rem; }
+  .etapa p{ font-size:.93rem; }
+
+  /* ---------- TCC ---------- */
+  .grade-tcc{ display:grid; grid-template-columns:1fr; gap:24px; }
+  @media (min-width: 900px){ .grade-tcc{ grid-template-columns: repeat(3, 1fr); } }
+  .tcc-bloco{ background: var(--branco); border:1px solid var(--borda); border-radius: var(--raio); padding: 30px; }
+  .tcc-bloco h3{ font-size:1.1rem; }
+  .tcc-bloco p{ font-size:.95rem; margin-bottom:0; }
+
+  /* ---------- Artigos ---------- */
+  .grade-artigos{ display:grid; grid-template-columns:1fr; gap:28px; }
+  @media (min-width: 700px){ .grade-artigos{ grid-template-columns: repeat(3,1fr); } }
+
+  .cartao-artigo{
+    background: var(--branco); border:1px solid var(--borda); border-radius: var(--raio);
+    overflow:hidden; display:flex; flex-direction:column; transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .cartao-artigo:hover{ transform: translateY(-4px); box-shadow: var(--sombra); }
+  .cartao-artigo .capa{ aspect-ratio: 16/10; background: var(--bege-escuro); overflow:hidden; }
+  .cartao-artigo .capa img{ width:100%; height:100%; object-fit:cover; }
+  .cartao-artigo .conteudo{ padding: 22px 22px 26px; display:flex; flex-direction:column; gap:10px; flex:1; }
+  .cartao-artigo .categoria{ font-size:.75rem; text-transform:uppercase; letter-spacing:.1em; color: var(--terracota); font-weight:600; }
+  .cartao-artigo h3{ font-size:1.08rem; margin-bottom:0; }
+  .cartao-artigo p{ font-size:.9rem; margin-bottom:0; }
+  .cartao-artigo .ler-mais{ margin-top:auto; font-size:.85rem; font-weight:600; color: var(--verde-oliva-escuro); }
+  .link-blog-centro{ text-align:center; margin-top: 44px; }
+
+  /* ---------- Diferenciais ---------- */
+  .grade-diferenciais{ display:grid; grid-template-columns:1fr; gap: 28px; }
+  @media (min-width: 700px){ .grade-diferenciais{ grid-template-columns: 1fr 1fr; } }
+  .item-diferencial{ display:flex; gap:16px; align-items:flex-start; }
+  .item-diferencial .marca{
+    width:32px; height:32px; border-radius:50%; background: var(--verde-oliva);
+    color:#fff; display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .item-diferencial h3{ font-size:1.02rem; margin-bottom:.3em; }
+  .item-diferencial p{ font-size:.92rem; margin-bottom:0; }
+
+  /* ---------- CTA final ---------- */
+  .cta-final{ background: var(--verde-oliva-escuro); color:#fff; text-align:center; }
+  .cta-final h2{ color:#fff; font-size: clamp(1.6rem, 3.4vw, 2.3rem); max-width: 22ch; margin-left:auto; margin-right:auto; }
+  .cta-final p{ color: rgba(255,255,255,.82); max-width: 48ch; margin: 0 auto 32px; font-size:1.05rem; }
+
+  /* ---------- Rodapé ---------- */
+  .rodape{ background: var(--tinta); color: rgba(255,255,255,.75); padding: 64px 0 32px; }
+  .rodape-topo{ display:grid; grid-template-columns: 1fr; gap:40px; }
+  @media (min-width: 780px){ .rodape-topo{ grid-template-columns: 1.4fr 1fr 1fr; } }
+  .rodape-marca .logo span{ color:#fff; }
+  .rodape-marca p{ color: rgba(255,255,255,.6); font-size:.9rem; max-width:32ch; margin-top:14px; }
+  .rodape h4{ color:#fff; font-family: var(--fonte-corpo); font-size:.82rem; text-transform:uppercase; letter-spacing:.1em; margin-bottom:18px; }
+  .rodape ul{ list-style:none; margin:0; padding:0; display:grid; gap:12px; }
+  .rodape a{ color: rgba(255,255,255,.75); font-size:.92rem; }
+  .rodape a:hover{ color:#fff; }
+  .redes{ display:flex; gap:14px; margin-top: 4px; }
+  .redes a{
+    width:38px; height:38px; border-radius:50%; border:1px solid rgba(255,255,255,.25);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .redes a:hover{ border-color:#fff; background: rgba(255,255,255,.08); }
+  .rodape-baixo{
+    border-top: 1px solid rgba(255,255,255,.14); margin-top: 48px; padding-top: 24px;
+    display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; font-size:.82rem; color: rgba(255,255,255,.55);
+  }
+
+  /* ---------- WhatsApp flutuante ---------- */
+  .whatsapp-flutuante{
+    position: fixed; right: 20px; bottom: 20px; z-index: 60;
+    width: 58px; height: 58px; border-radius: 50%;
+    background: #3F7A52; color:#fff; display:flex; align-items:center; justify-content:center;
+    box-shadow: 0 10px 24px -10px rgba(0,0,0,.4);
+    transition: transform .2s ease;
+  }
+  .whatsapp-flutuante:hover{ transform: scale(1.06); }
+
+  [data-lazy-fade]{ opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+  [data-lazy-fade].em-vista{ opacity:1; transform:none; }
+
+  .ambiente-consultorio{padding:96px 0;background:var(--bege);}
+  .ambiente-grid{display:grid;grid-template-columns:1fr;gap:40px;align-items:center;}
+  .ambiente-imagem{border-radius:10px;overflow:hidden;box-shadow:var(--sombra);border:1px solid var(--borda);}
+  .ambiente-imagem img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;}
+  .ambiente-texto h2{font-size:clamp(1.7rem,3vw,2.35rem);}
+  .ambiente-texto p{font-size:1.05rem;max-width:52ch;}
+  @media(min-width:900px){.ambiente-grid{grid-template-columns:.9fr 1.1fr;gap:72px;}}
+</style>
+<meta content="#565A34" name="theme-color"/></head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PB42NZS7" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<nav class="nav">
-<div class="nav-inner">
-<a href="/"><img alt="Ricardo Araujo Psicólogo" src="/logo.png" style="height:60px;"/></a>
-<div class="nav-links">
-<a href="/#sobre">Sobre</a>
-<a href="/blog/">Blog</a>
-<a class="nav-cta" href="https://wa.me/5511988657009?text=Ol%C3%A1%2C%20Ricardo!%20Gostaria%20de%20agendar%20minha%20primeira%20sess%C3%A3o." rel="noopener" target="_blank">Agendar</a>
-</div>
-</div>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="cabecalho">
+<div class="container">
+<a aria-label="Ricardo Araujo Psicologia — página inicial" class="logo" href="/">
+<img alt="Ricardo Araujo Psicologia" height="40" src="/logo.png" width="40"/>
+<span>Ricardo Araujo</span>
+</a>
+<nav aria-label="Navegação principal" class="nav-principal">
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#como-ajudo">Como posso ajudar</a></li>
+<li><a href="#terapia">A terapia</a></li>
+<li><a href="/blog/">Blog</a></li>
+</ul>
 </nav>
-<main>
-<div class="page-head">
-<div class="eyebrow">Blog</div>
-<h1>Artigos sobre terapia e bem-estar</h1>
-<p>Reflexões e informações sobre psicoterapia, saúde mental e autoconhecimento, escritas por mim, Ricardo Araujo.</p>
+<a class="btn btn-primario" href="#contato">Agendar atendimento</a>
 </div>
-<div class="post-list"><a class="post-card" href="/blog/burnout-sintomas-causas-tratamento.html"><span class="tag">Burnout</span><h2>Burnout: sintomas, causas e tratamento psicológico</h2><p>Entenda os sinais do esgotamento profissional, suas causas, diferenças para estresse e quando procurar ajuda psicológica.</p><div class="meta"><span>14 de julho de 2026</span><span class="read-more">Ler artigo →</span></div></a><a class="post-card" href="/blog/como-funciona-terapia-cognitivo-comportamental.html"><span class="tag">Terapia Cognitivo-Comportamental</span><h2>Como Funciona a Terapia Cognitivo-Comportamental?</h2><p>Entenda como funciona a TCC, suas etapas, técnicas e para quais problemas ela costuma ser indicada.</p><div class="meta"><span>13 de julho de 2026</span><span class="read-more">Ler artigo →</span></div></a>
-<a class="post-card" href="/blog/ansiedade-quando-deixa-de-ser-normal-e-vira-transtorno.html">
-<span class="tag">Ansiedade</span>
-<h2>Ansiedade: quando deixa de ser normal e vira transtorno?</h2>
-<p>Entenda a diferença entre ansiedade normal e transtorno de ansiedade, os sinais de alerta e quando buscar ajuda psicológica.</p>
-<div class="meta">
-<span>12 de julho de 2026</span>
-<span class="read-more">Ler artigo →</span>
+</header>
+<main id="conteudo">
+<!-- 1. HERO -->
+<section aria-labelledby="hero-titulo" class="hero">
+<div class="container">
+<div class="hero-texto">
+<span class="eyebrow">Psicologia Clínica · TCC</span>
+<h1 id="hero-titulo">Psicoterapia baseada em evidências para quem deseja compreender melhor a ansiedade, o estresse, os relacionamentos e a depressão.</h1>
+<p>Um espaço de escuta, acolhimento e desenvolvimento emocional para adultos que desejam construir uma relação mais saudável consigo mesmos e com suas experiências.</p>
+<div class="hero-acoes">
+<a class="btn btn-primario" href="#contato">Agendar atendimento</a>
+<a class="btn btn-secundario" href="/blog/">Conhecer o blog</a>
 </div>
+<div class="hero-selo">
+<svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="20"><path d="M12 21s-7-4.5-9.5-9C.5 8 2 4 6 4c2.2 0 3.6 1.2 6 4 2.4-2.8 3.8-4 6-4 4 0 5.5 4 3.5 8-2.5 4.5-9.5 9-9.5 9z"></path></svg>
+<span>Ricardo Araujo · Psicólogo Clínico · CRP 06/236217</span>
+</div>
+</div>
+<div class="hero-imagem">
+<div class="moldura">
+<img alt="Ricardo Araujo, psicólogo clínico" fetchpriority="high" height="800" loading="eager" src="/assets/ricardo-hero.png" width="640"/>
+</div>
+<div class="marca-agua">
+<strong>Terapia Cognitivo-Comportamental</strong>
+<span>Atendimento a adultos, online</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. COMO POSSO AJUDAR -->
+<section aria-labelledby="ajudar-titulo" id="como-ajudo">
+<div class="container">
+<div class="cabecalho-secao">
+<span class="eyebrow">Áreas de atuação</span>
+<h2 id="ajudar-titulo">Como posso ajudar</h2>
+<p>Cada pessoa chega ao consultório com uma história diferente. Estas são algumas das demandas mais frequentes no meu trabalho clínico.</p>
+</div>
+<div class="grade-areas">
+<article class="cartao-area">
+<div aria-hidden="true" class="icone">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="22"><path d="M12 2a7 7 0 0 0-7 7c0 4 3 6 3 9h8c0-3 3-5 3-9a7 7 0 0 0-7-7z"></path><path d="M9 21h6"></path></svg>
+</div>
+<h3>Ansiedade</h3>
+<p>Compreender os gatilhos e desenvolver formas mais saudáveis de lidar com a preocupação excessiva e a sensação constante de alerta.</p>
+</article>
+<article class="cartao-area">
+<div aria-hidden="true" class="icone">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="22"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"></path></svg>
+</div>
+<h3>Manejo do estresse</h3>
+<p>Identificar padrões de sobrecarga e construir estratégias práticas para recuperar equilíbrio na rotina e no trabalho.</p>
+</article>
+<article class="cartao-area">
+<div aria-hidden="true" class="icone">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="22"><circle cx="8" cy="9" r="3"></circle><circle cx="17" cy="9" r="3"></circle><path d="M2 20c0-3 2.5-5 6-5s6 2 6 5M12 20c0-2.5 2-4.5 5-4.5s5 2 5 4.5"></path></svg>
+</div>
+<h3>Relacionamentos</h3>
+<p>Repensar padrões de comunicação e vínculo, com foco em relações mais saudáveis consigo mesmo e com o outro.</p>
+</article>
+<article class="cartao-area">
+<div aria-hidden="true" class="icone">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="22"><circle cx="12" cy="12" r="9"></circle><path d="M8 15c1.2 1.2 2.6 1.8 4 1.8s2.8-.6 4-1.8M9 9h.01M15 9h.01"></path></svg>
+</div>
+<h3>Depressão</h3>
+<p>Acolher o momento presente e caminhar, em etapas possíveis, na direção de mais sentido e vitalidade no dia a dia.</p>
+</article>
+</div>
+</div>
+</section>
+<!-- 3. SOBRE MIM -->
+<section aria-labelledby="sobre-titulo" class="sobre secao-alt" id="sobre">
+<div class="container">
+<div class="sobre-imagem">
+<img alt="Ricardo Araujo em um ambiente de atendimento" height="480" loading="lazy" src="/assets/ricardo-sobre.jpg" width="600"/>
+</div>
+<div class="sobre-texto">
+<span class="eyebrow">Sobre mim</span>
+<h2 id="sobre-titulo">Um olhar atento para a experiência de cada pessoa</h2>
+<p>Sou Ricardo Araujo, Psicólogo Clínico (CRP 06/236217). Meu trabalho é fundamentado na Terapia Cognitivo-Comportamental, uma abordagem estruturada, colaborativa e baseada em evidências científicas.</p>
+<p>Antes de me dedicar integralmente à clínica, passei mais de duas décadas atuando com desenvolvimento humano, liderança e gestão de pessoas. Essa trajetória moldou um olhar prático sobre como pensamentos, emoções e comportamentos se conectam no cotidiano.</p>
+<p>Hoje, dedico minha atuação profissional ao cuidado da saúde mental de adultos, com um processo terapêutico ético, respeitoso e centrado nas necessidades de quem busca o atendimento.</p>
+<ul class="lista-credenciais">
+<li>
+<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><path d="M20 6 9 17l-5-5"></path></svg>
+<span>Psicólogo Clínico registrado — CRP 06/236217</span>
+</li>
+<li>
+<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><path d="M20 6 9 17l-5-5"></path></svg>
+<span>Atuação fundamentada na Terapia Cognitivo-Comportamental</span>
+</li>
+<li>
+<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><path d="M20 6 9 17l-5-5"></path></svg>
+<span>Mais de 20 anos de experiência com desenvolvimento humano e gestão de pessoas</span>
+</li>
+<li>
+<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><path d="M20 6 9 17l-5-5"></path></svg>
+<span>Atendimento dedicado a adultos, online</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- 4. COMO FUNCIONA A TERAPIA -->
+<section aria-labelledby="processo-titulo">
+<div class="container">
+<div class="cabecalho-secao">
+<span class="eyebrow">O processo</span>
+<h2 id="processo-titulo">Como funciona a terapia</h2>
+<p>Um processo claro, para que você saiba o que esperar desde o primeiro contato.</p>
+</div>
+<div class="grade-etapas">
+<div class="etapa">
+<div aria-hidden="true" class="icone-etapa">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="22"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+</div>
+<h3>Primeiro contato</h3>
+<p>Uma conversa inicial para entender o que te trouxe até aqui e esclarecer como funciona o processo terapêutico.</p>
+</div>
+<div class="etapa">
+<div aria-hidden="true" class="icone-etapa">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="22"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
+</div>
+<h3>Compreensão da demanda</h3>
+<p>Nas primeiras sessões, buscamos entender com profundidade a sua história e o que você deseja trabalhar.</p>
+</div>
+<div class="etapa">
+<div aria-hidden="true" class="icone-etapa">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="22"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path><path d="M9 13h6M9 17h6"></path></svg>
+</div>
+<h3>Construção do plano terapêutico</h3>
+<p>Definimos juntos objetivos claros e um plano de acompanhamento adequado ao seu momento de vida.</p>
+</div>
+<div class="etapa">
+<div aria-hidden="true" class="icone-etapa">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="22"><path d="M3 12h4l3 8 4-16 3 8h4"></path></svg>
+</div>
+<h3>Processo de desenvolvimento</h3>
+<p>Acompanhamento contínuo, com ajustes ao longo do caminho, respeitando o ritmo de cada pessoa.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. TERAPIA COGNITIVO-COMPORTAMENTAL -->
+<section aria-labelledby="tcc-titulo" class="secao-alt" id="terapia">
+<div class="container">
+<div class="cabecalho-secao">
+<span class="eyebrow">A abordagem</span>
+<h2 id="tcc-titulo">O que é a Terapia Cognitivo-Comportamental</h2>
+<p>Uma forma estruturada de terapia, com décadas de estudos científicos sustentando sua eficácia.</p>
+</div>
+<div class="grade-tcc">
+<div class="tcc-bloco">
+<h3>O que é</h3>
+<p>A TCC parte de um princípio simples: pensamentos, emoções e comportamentos estão conectados. Compreender essa relação ajuda a entender com mais clareza as próprias reações diante da vida.</p>
+</div>
+<div class="tcc-bloco">
+<h3>Como funciona</h3>
+<p>É uma terapia estruturada e colaborativa. Juntos, identificamos padrões de pensamento e comportamento, e trabalhamos estratégias práticas para lidar com eles.</p>
+</div>
+<div class="tcc-bloco">
+<h3>Por que é baseada em evidências</h3>
+<p>A eficácia da TCC é amplamente estudada e comprovada cientificamente para o tratamento de ansiedade, depressão e diversas outras demandas emocionais.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. ÚLTIMOS ARTIGOS -->
+<section aria-labelledby="artigos-titulo">
+<div class="container">
+<div class="cabecalho-secao">
+<span class="eyebrow">No blog</span>
+<h2 id="artigos-titulo">Últimos artigos</h2>
+<p>Reflexões e conteúdos sobre saúde mental, ansiedade, relacionamentos e o processo terapêutico.</p>
+</div>
+<div class="grade-artigos" id="lista-ultimos-artigos">
+<article class="cartao-artigo">
+<a aria-hidden="true" class="capa" href="/blog/ansiedade-pensar-sempre-no-pior.html" tabindex="-1">
+<img alt="" height="250" loading="lazy" src="/assets/consultorio-estante.jpg" width="400"/>
 </a>
-<a class="post-card" href="/blog/psicoterapia-online-funciona.html">
-<span class="tag">Psicoterapia online</span>
-<h2>Como funciona a psicoterapia online? Vale a pena?</h2>
-<p>Entenda como funciona o atendimento por videochamada, se ele realmente é eficaz, e como é a primeira sessão de terapia.</p>
-<div class="meta">
-<span>11 de julho de 2026</span>
-<span class="read-more">Ler artigo →</span>
+<div class="conteudo">
+<span class="categoria">Ansiedade</span>
+<h3><a href="/blog/ansiedade-pensar-sempre-no-pior.html">Por que a ansiedade faz a gente pensar sempre no pior?</a></h3>
+<p>Entenda o que é catastrofização e por que a mente ansiosa antecipa cenários difíceis.</p>
+<a class="ler-mais" href="/blog/ansiedade-pensar-sempre-no-pior.html">Ler artigo →</a>
 </div>
+</article>
+<article class="cartao-artigo">
+<a aria-hidden="true" class="capa" href="/blog/ansiedade-por-que-tentamos-controlar-tudo.html" tabindex="-1">
+<img alt="" height="250" loading="lazy" src="/assets/consultorio-estante.jpg" width="400"/>
 </a>
+<div class="conteudo">
+<span class="categoria">Ansiedade</span>
+<h3><a href="/blog/ansiedade-por-que-tentamos-controlar-tudo.html">Ansiedade: por que tentamos controlar tudo quando estamos inseguros?</a></h3>
+<p>Como a necessidade de controle pode aparecer e manter o ciclo da ansiedade.</p>
+<a class="ler-mais" href="/blog/ansiedade-por-que-tentamos-controlar-tudo.html">Ler artigo →</a>
 </div>
+</article>
+<article class="cartao-artigo">
+<a aria-hidden="true" class="capa" href="/blog/burnout-sintomas-causas-tratamento.html" tabindex="-1">
+<img alt="" height="250" loading="lazy" src="/assets/consultorio-estante.jpg" width="400"/>
+</a>
+<div class="conteudo">
+<span class="categoria">Estresse</span>
+<h3><a href="/blog/burnout-sintomas-causas-tratamento.html">Burnout: sintomas, causas e tratamento psicológico</a></h3>
+<p>Uma leitura sobre esgotamento profissional, sinais de alerta e possibilidades de cuidado.</p>
+<a class="ler-mais" href="/blog/burnout-sintomas-causas-tratamento.html">Ler artigo →</a>
+</div>
+</article>
+</div>
+<div class="link-blog-centro">
+<a class="btn btn-secundario" href="/blog/">Ver todos os artigos</a>
+</div>
+</div>
+</section>
+<!-- 7. DIFERENCIAIS -->
+<section aria-labelledby="diferenciais-titulo" class="secao-alt">
+<div class="container">
+<div class="cabecalho-secao">
+<span class="eyebrow">Diferenciais</span>
+<h2 id="diferenciais-titulo">Por que o processo terapêutico comigo</h2>
+</div>
+<div class="grade-diferenciais">
+<div class="item-diferencial">
+<div aria-hidden="true" class="marca">
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2.4" viewbox="0 0 24 24" width="16"><path d="M20 6 9 17l-5-5"></path></svg>
+</div>
+<div>
+<h3>Atendimento online</h3>
+<p>Sessões por videochamada, com a mesma qualidade e sigilo do atendimento presencial.</p>
+</div>
+</div>
+<div class="item-diferencial">
+<div aria-hidden="true" class="marca">
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2.4" viewbox="0 0 24 24" width="16"><path d="M20 6 9 17l-5-5"></path></svg>
+</div>
+<div>
+<h3>Baseado em evidências</h3>
+<p>Prática clínica fundamentada em estudos científicos e protocolos reconhecidos da TCC.</p>
+</div>
+</div>
+<div class="item-diferencial">
+<div aria-hidden="true" class="marca">
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2.4" viewbox="0 0 24 24" width="16"><path d="M20 6 9 17l-5-5"></path></svg>
+</div>
+<div>
+<h3>Ambiente acolhedor</h3>
+<p>Um espaço de escuta ética, sem julgamentos, para que você se sinta à vontade para falar.</p>
+</div>
+</div>
+<div class="item-diferencial">
+<div aria-hidden="true" class="marca">
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2.4" viewbox="0 0 24 24" width="16"><path d="M20 6 9 17l-5-5"></path></svg>
+</div>
+<div>
+<h3>Respeito ao seu ritmo</h3>
+<p>Cada processo terapêutico é único e caminha no tempo que faz sentido para você.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. CTA FINAL -->
+
+<section aria-labelledby="ambiente-titulo" class="ambiente-consultorio">
+<div class="container ambiente-grid">
+<div class="ambiente-texto">
+<span class="eyebrow">Um espaço de cuidado</span>
+<h2 id="ambiente-titulo">Um ambiente pensado para acolher, escutar e compreender.</h2>
+<p>Mesmo no atendimento online, a psicoterapia pode ser um espaço de presença, organização e cuidado com aquilo que você está vivendo.</p>
+</div>
+<div class="ambiente-imagem">
+<img alt="Estante com livros e plantas no ambiente de trabalho de Ricardo Araujo" height="1200" loading="lazy" src="/assets/consultorio-estante.jpg" width="900"/>
+</div>
+</div>
+</section>
+<section aria-labelledby="cta-titulo" class="cta-final" id="contato">
+<div class="container">
+<h2 id="cta-titulo">Cuidar da saúde mental também é uma forma de cuidar da sua qualidade de vida.</h2>
+<p>Dê o primeiro passo agendando uma conversa inicial.</p>
+<a class="btn btn-claro" href="https://wa.me/5511988657009?text=Ol%C3%A1%2C%20Ricardo!%20Vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20psicoterapia." rel="noopener" target="_blank">Agendar atendimento</a>
+</div>
+</section>
 </main>
-<footer>
-<p>Ricardo Araujo — Psicólogo Clínico · CRP 06/236217</p>
-<p style="margin-top:8px;"><a href="/">ricardoaraujopsi.com.br</a></p>
+<!-- 9. RODAPÉ -->
+<footer class="rodape">
+<div class="container">
+<div class="rodape-topo">
+<div class="rodape-marca">
+<a aria-label="Ricardo Araujo Psicologia — página inicial" class="logo" href="/">
+<img alt="Ricardo Araujo Psicologia" height="36" src="/logo.png" width="36"/>
+<span>Ricardo Araujo</span>
+</a>
+<p>Psicólogo Clínico · Terapia Cognitivo-Comportamental. Atendimento a adultos, online.</p>
+<div class="redes">
+<a aria-label="WhatsApp" href="https://wa.me/5511988657009?text=Ol%C3%A1%2C%20Ricardo!%20Vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20psicoterapia." rel="noopener" target="_blank">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="18"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+</a>
+<a aria-label="Instagram" href="https://www.instagram.com/" rel="noopener" target="_blank">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="18"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+</a>
+<a aria-label="LinkedIn" href="https://www.linkedin.com/" rel="noopener" target="_blank">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="18"><rect height="18" rx="2" width="18" x="3" y="3"></rect><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 13v4"></path></svg>
+</a>
+</div>
+</div>
+<nav aria-label="Links do rodapé">
+<h4>Navegação</h4>
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#como-ajudo">Como posso ajudar</a></li>
+<li><a href="#terapia">A terapia</a></li>
+<li><a href="/blog/">Blog</a></li>
+</ul>
+</nav>
+<div>
+<h4>Contato</h4>
+<ul>
+<li><a href="https://wa.me/5511988657009?text=Ol%C3%A1%2C%20Ricardo!%20Vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20psicoterapia." rel="noopener" target="_blank">WhatsApp</a></li>
+<li><a href="https://www.instagram.com/" rel="noopener" target="_blank">Instagram</a></li>
+<li><a href="https://www.linkedin.com/" rel="noopener" target="_blank">LinkedIn</a></li>
+</ul>
+</div>
+</div>
+<div class="rodape-baixo">
+<span>CRP 06/236217 · Ricardo Araujo, Psicólogo Clínico</span>
+<span>© <span id="ano-atual">2026</span> Ricardo Araujo. Todos os direitos reservados.</span>
+</div>
+</div>
 </footer>
+<a aria-label="Conversar no WhatsApp" class="whatsapp-flutuante" href="https://wa.me/5511988657009?text=Ol%C3%A1%2C%20Ricardo!%20Vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20psicoterapia." rel="noopener" target="_blank">
+<svg fill="none" height="26" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24" width="26"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+</a>
+<script>
+  document.getElementById('ano-atual').textContent = new Date().getFullYear();
+
+  if ('IntersectionObserver' in window) {
+    var alvos = document.querySelectorAll('.cartao-area, .etapa, .cartao-artigo, .tcc-bloco, .item-diferencial');
+    alvos.forEach(function(el){ el.setAttribute('data-lazy-fade',''); });
+    var observador = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(entrada){
+        if (entrada.isIntersecting){
+          entrada.target.classList.add('em-vista');
+          observador.unobserve(entrada.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    alvos.forEach(function(el){ observador.observe(el); });
+  }
+</script>
 </body>
 </html>
