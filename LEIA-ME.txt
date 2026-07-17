@@ -1,0 +1,17 @@
+HOME DEFINITIVA — ARQUIVO VERIFICADO
+
+Este pacote contém uma página inicial verdadeira, não a página do blog.
+
+1. Substitua somente o index.html da raiz.
+2. Copie a pasta assets para a raiz.
+3. Não altere blog/index.html.
+4. Abra o index.html localmente e confirme que aparecem:
+   - Como posso ajudar
+   - Sobre mim
+   - Terapia Cognitivo-Comportamental
+
+Antes do push, confira o conteúdo registrado com:
+git diff --cached -- index.html
+
+Depois do commit, confira com:
+git show HEAD:index.html | head -n 40
