@@ -1,25 +1,399 @@
-<!-- LOTE 07 -->
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ricardoaraujopsi.com.br/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ricardoaraujopsi.com.br/blog/</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ricardoaraujopsi.com.br/blog/psicoterapia-online-funciona.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ricardoaraujopsi.com.br/blog/ansiedade-quando-deixa-de-ser-normal-e-vira-transtorno.html</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ricardoaraujopsi.com.br/blog/como-funciona-terapia-cognitivo-comportamental.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ricardoaraujopsi.com.br/blog/burnout-sintomas-causas-tratamento.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 <url>
-  <loc>https://ricardoaraujopsi.com.br/blog/como-lidar-com-emocoes-dificeis.html</loc>
-  <lastmod>2026-07-31</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+<loc>https://ricardoaraujopsi.com.br/blog/ansiedade-por-que-tentamos-controlar-tudo.html</loc>
+<lastmod>2026-07-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://ricardoaraujopsi.com.br/blog/reprimir-emocoes-aumenta-sofrimento.html</loc>
-  <lastmod>2026-07-31</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+<loc>https://ricardoaraujopsi.com.br/blog/ansiedade-pensar-sempre-no-pior.html</loc>
+<lastmod>2026-07-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://ricardoaraujopsi.com.br/blog/inteligencia-emocional-o-que-e.html</loc>
-  <lastmod>2026-07-31</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+<loc>https://ricardoaraujopsi.com.br/blog/como-parar-de-pensar-demais.html</loc>
+<lastmod>2026-07-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://ricardoaraujopsi.com.br/blog/autocompaixao-nao-e-acomodacao.html</loc>
-  <lastmod>2026-07-31</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+<loc>https://ricardoaraujopsi.com.br/blog/como-estabelecer-limites-sem-culpa.html</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
 </url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/sindrome-do-impostor-por-que-duvidamos-de-nos.html</loc>
+<lastmod>2026-07-18</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/perfeccionismo-esta-impedindo-voce-de-viver.html</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/autossabotagem-por-que-atrapalho-meus-objetivos.html</loc>
+<lastmod>2026-07-18</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/culpa-excessiva-por-que-me-sinto-culpado-por-tudo.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/baixa-autoestima-como-se-forma-e-como-fortalece-la.html</loc>
+<lastmod>2026-07-18</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/ansiedade-social-medo-do-julgamento-dos-outros.html</loc>
+<lastmod>2026-07-18</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/procrastinacao-por-que-continuo-adiando-o-que-e-importante.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/dependencia-emocional-como-reconhecer-relacionamento-nao-saudavel.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/relacionamentos-dificeis-por-que-algumas-relacoes-nos-fazem-sofrer.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/como-lidar-com-pessoas-dificeis-sem-perder-a-saude-mental.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/por-que-me-comparo-tanto-com-os-outros-e-como-isso-afeta-a-autoestima.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/por-que-tenho-dificuldade-em-dizer-nao-limites-sem-culpa.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/autossabotagem-por-que-sempre-estrago-as-coisas.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/estresse-por-que-estou-tao-estressado.html</loc>
+<lastmod>2026-07-20</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/insonia-por-que-nao-consigo-dormir.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/pensamentos-intrusivos-o-que-sao.html</loc>
+<lastmod>2026-07-20</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/ruminacao-mental-por-que-nao-consigo-parar-de-pensar.html</loc>
+<lastmod>2026-07-20</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/exercicios-fisicos-saude-mental.html</loc>
+<lastmod>2026-07-21</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/pensamento-catastrofico-por-que-sempre-imagino-o-pior.html</loc>
+<lastmod>2026-07-21</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/ansiedade-antecipatoria-por-que-sofro-antes-das-coisas-acontecerem.html</loc>
+<lastmod>2026-07-21</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/autocritica-excessiva-por-que-sou-tao-duro-comigo-mesmo.html</loc>
+<lastmod>2026-07-21</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/medo-de-decepcionar-as-pessoas-por-que-isso-pesa-tanto.html</loc>
+<lastmod>2026-07-21</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/hipervigilancia-por-que-nunca-consigo-relaxar.html</loc>
+<lastmod>2026-07-22</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/necessidade-de-aprovacao-por-que-preciso-da-aprovacao-dos-outros.html</loc>
+<lastmod>2026-07-22</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/sensacao-de-vazio-por-que-me-sinto-vazio-mesmo-quando-esta-tudo-bem.html</loc>
+<lastmod>2026-07-23</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/desregulacao-emocional-por-que-minhas-emocoes-parecem-sair-do-controle.html</loc>
+<lastmod>2026-07-23</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/exaustao-emocional-por-que-me-sinto-esgotado-mesmo-quando-descanso.html</loc>
+<lastmod>2026-07-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/esgotamento-mental-por-que-minha-mente-parece-nunca-desligar.html</loc>
+<lastmod>2026-07-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/sobrecarga-emocional-por-que-sinto-que-estou-carregando-tudo-sozinho.html</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/fadiga-de-decisao-por-que-ate-pequenas-escolhas-parecem-me-esgotar.html</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/paralisia-por-analise-por-que-penso-tanto-e-nao-consigo-decidir.html</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/carga-mental-por-que-minha-cabeca-continua-trabalhando-mesmo-quando-eu-paro.html</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/necessidade-de-controle-por-que-sinto-que-preciso-controlar-tudo.html</loc>
+<lastmod>2026-07-26</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/autocobranca-excessiva-por-que-nunca-sinto-que-faco-o-suficiente.html</loc>
+<lastmod>2026-07-26</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/como-parar-de-pensar-demais-entendendo-a-ruminacao-mental.html</loc>
+<lastmod>2026-07-26</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/medo-de-errar-por-que-o-receio-de-falhar-pode-estar-paralisando-sua-vida.html</loc>
+<lastmod>2026-07-26</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/comparacao-social-por-que-me-comparo-tanto-com-os-outros.html</loc>
+<lastmod>2026-07-27</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/por-que-nunca-consigo-relaxar-entenda-o-estado-constante-de-alerta.html</loc>
+<lastmod>2026-07-27</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/intolerancia-a-incerteza-por-que-e-tao-dificil-lidar-com-o-que-nao-posso-controlar.html</loc>
+<lastmod>2026-07-27</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/medo-de-decepcionar-os-outros-por-que-e-tao-dificil-dizer-nao.html</loc>
+<lastmod>2026-07-27</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/procrastinacao-por-ansiedade-por-que-adio-o-que-mais-importa.html</loc>
+<lastmod>2026-07-27</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/culpa-ao-descansar-por-que-parar-parece-errado.html</loc>
+<lastmod>2026-07-27</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/ansiedade-antecipatoria-quando-sofro-antes-mesmo-de-acontecer.html</loc>
+<lastmod>2026-07-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/como-criar-limites-saudaveis-sem-sentir-culpa.html</loc>
+<lastmod>2026-07-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/dependencia-de-aprovacao-por-que-preciso-da-validacao-dos-outros.html</loc>
+<lastmod>2026-07-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/sindrome-do-impostor-por-que-nunca-me-sinto-bom-o-suficiente.html</loc>
+<lastmod>2026-07-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/medo-de-rejeicao-por-que-nao-ser-aceito-doi-tanto.html</loc>
+<lastmod>2026-07-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/apego-ansioso-por-que-tenho-medo-de-ser-abandonado.html</loc>
+<lastmod>2026-07-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/autoestima-e-relacionamentos-como-ela-influencia-suas-escolhas.html</loc>
+<lastmod>2026-07-30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/medo-de-ser-julgado-como-isso-pode-estar-limitando-suas-escolhas.html</loc>
+<lastmod>2026-07-30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/por-que-sinto-que-preciso-agradar-todo-mundo.html</loc>
+<lastmod>2026-07-30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/comunicacao-assertiva-como-dizer-o-que-pensa-sem-agressividade-nem-culpa.html</loc>
+<lastmod>2026-07-30</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/autocompaixao-nao-e-acomodacao.html</loc>
+<lastmod>2026-07-31</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/como-lidar-com-emocoes-dificeis.html</loc>
+<lastmod>2026-07-31</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/inteligencia-emocional-o-que-e.html</loc>
+<lastmod>2026-07-31</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ricardoaraujopsi.com.br/blog/reprimir-emocoes-aumenta-sofrimento.html</loc>
+<lastmod>2026-07-31</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+</urlset>
